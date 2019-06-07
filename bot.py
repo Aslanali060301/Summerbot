@@ -32,7 +32,7 @@ def help(bot, updater):
 
 
 def main():
-    TOKEN = os.environ['781852390:AAFKpA2B9taMNHoYf5vMDoYdHbX7CVYlqds']
+    TOKEN = os.environ['TELEGRAM_TOKEN']
     PORT = int(os.environ.get('PORT', '8443'))
     updater = Updater(TOKEN)
 
